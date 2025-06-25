@@ -21,7 +21,8 @@
 }
 
 .logo a{
-    font-size: 50px;
+    padding-left: 85px;
+    font-size: 75px;
     font-weight: bold;
     color: aliceblue;
     transition: color 0.5s;
@@ -37,10 +38,11 @@ li{
 }
 
 li a{
-    color: rgb(175, 127, 72);
+    color: rgb(160, 153, 145);
     font-size: 25px;
     font-weight: bold;
     margin-right: 30px;
+    transition: ease-in 0.1s;
 }
 
 .logo a{
@@ -55,4 +57,8 @@ li a{
     to{
         margin-left: 0%;
     }
+}
+
+li a:hover{
+    color: rgb(185, 81, 81);
 }
