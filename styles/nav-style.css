@@ -1,18 +1,58 @@
-.header{
-    display: flex;
-    gap: 15px;
-    padding-left: 25px;
+*{
+    text-decoration: none;
 }
 
-.nav-btn{
-    height: 65px;
-    display: flex;
-    justify-content:space-around;
-    background-color: rgb(162, 166, 170);
+
+.navbar{
+    font-family:Calibri;
+    padding-right: 15px;
+    padding-left: 15px;
+    height: 85px;
+    
    
+
 }
 
-a{
+.nav-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.logo a{
+    font-size: 50px;
+    font-weight: bold;
     color: aliceblue;
-    font-size: 30px;
+    transition: color 0.5s;
+}
+
+.logo a:hover{
+    color: rgb(133, 77, 77);
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+}
+
+li a{
+    color: rgb(175, 127, 72);
+    font-size: 25px;
+    font-weight: bold;
+    margin-right: 30px;
+}
+
+.logo a{
+    animation-duration: 1s;
+    animation-name: sn;
+}
+
+@keyframes sn{
+    from{
+        margin-left: 10%;
+    }
+    to{
+        margin-left: 0%;
+    }
 }
