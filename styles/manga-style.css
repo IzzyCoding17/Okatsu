@@ -7,14 +7,11 @@ body{
 
 .image-column{
   display:grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-auto-columns: auto;
-  column-gap: 20px;
-  row-gap: 18px;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 2rem;
 }
 
-
-.image-column img{
-   width: 200px;
-  
+.image-column img {
+  height: auto;
+  width: 100%;
 }
