@@ -4,16 +4,20 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background: #312516;
+  background: linear-gradient(60deg, #131318,  #14141d,  #311e23,#5e3737);
 }
 
 .left-section{
-  background-color: rgb(185, 81, 81);
+  background: rgb(185, 81, 81);
+  background: linear-gradient(45deg, #e07b7b, #ec5a5a, #f1cbcb);
   margin-left: 35px;
   width: 20%;
   padding: 8px;
   padding-left: 5px;
-  border-radius: 5px;
+  border-radius: 20px;
   display: flex;
   align-items: center;
 }
