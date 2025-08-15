@@ -10,13 +10,14 @@ p{
 
 .image-column{
   display:grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(200px, 2fr));
   gap: 2rem;
-  padding: 20px;
+  object-fit: contain;
+  padding: 15px;
 }
 
 .image-column img {
-  height: auto;
+  height: 100%;
   width: 100%;
 }
 
