@@ -13,7 +13,7 @@ p{
   grid-template-columns: repeat(auto-fill, minmax(200px, 2fr));
   gap: 2rem;
   object-fit: contain;
-  padding: 15px;
+  padding: 30px;
 }
 
 .image-column img {
